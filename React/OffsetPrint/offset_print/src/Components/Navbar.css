@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1.3rem;
+}
+
+.navbar ul li:hover{
+    color: bisque;
+    transition: 200ms;
+}
+.navbar ul li:not(hover){
+    color: black;
+    transition: 1000ms;
+}
