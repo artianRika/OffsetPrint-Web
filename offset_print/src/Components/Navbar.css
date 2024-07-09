@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    background-color: aliceblue;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1.3rem;
+    position: relative;
+}
+
+.navbar ul li:hover{
+    color: bisque;
+    cursor: pointer;
+    transition: 400ms;
+}
+.navbar ul li:not(hover){
+    color: black;
+    transition: 1000ms;
+}
+
+
+.navbar ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: bisque;
+    transition: width 400ms ease-in-out, left 400ms ease-in-out;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+    left: 0;
+}
