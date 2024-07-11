@@ -15,13 +15,13 @@
 }
 
 .navbar ul li:hover{
-    color: bisque;
+    color: #61dbfd;
     cursor: pointer;
-    transition: 400ms;
+    transition: 300ms;
 }
 .navbar ul li:not(hover){
     color: black;
-    transition: 1000ms;
+    transition: 600ms;
 }
 
 
@@ -32,8 +32,8 @@
     bottom: 0;
     width: 0;
     height: 1px;
-    background-color: bisque;
-    transition: width 400ms ease-in-out, left 400ms ease-in-out;
+    background-color: #61dbfd;
+    transition: width 300ms ease-in-out, left 300ms ease-in-out;
 }
 
 .navbar ul li:hover::after {
