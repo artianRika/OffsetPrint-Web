@@ -16,6 +16,7 @@ function App() {
             <Route path={"/about-us"} element={<AboutUs/>}/>
             <Route path={"/contact"} element={<Contact/>}/>
         </Routes>
+
     </div>
   );
 }

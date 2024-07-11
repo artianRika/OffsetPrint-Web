@@ -1,3 +1,7 @@
+img{
+    user-select: none;
+}
+
 .topPart{
     position: relative;
     max-height: 35vh;
@@ -23,11 +27,49 @@
 
 .topPart .contactUsHeading{
     color: black;
-    font-size: 2.4em;
+    font-size: 2.1em;
     text-align: center;
     font-family: "Sylfaen";
     z-index: 1;
     padding: .2em .75em;
 }
+
+.middlePart .mainContainer{
+    display: flex;
+    flex-direction: row;
+    padding: .2rem;
+    justify-content: space-around;
+}
+
+.middlePart .containerLeft, .middlePart .containerRight{
+    text-align: justify;
+}
+
+.containerRight{
+    margin-left: -10rem;
+}
+
+.containerRight table, .containerRight tbody, .containerRight td, .containerRight tr{
+    border-bottom: 1px inset #d1d1d1;
+    border-collapse: collapse;
+    padding: .3em;
+}
+
+.middlePart .socialMediaRow{
+    margin: 2rem 0;
+    background-color: rgba(209, 209, 209, 0.44);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fbIcon, .inIcon, .instaIcon{
+    align-self: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+
 
 
