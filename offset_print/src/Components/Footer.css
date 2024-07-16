@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    opacity: .5;
+}
+
+
+.divider{
+    /*margin-top: 1rem;*/
+    background-color: #b3b3b3;
+    height: 1px;
+    text-align: center;
+    width: 87vw;
+}
+
+

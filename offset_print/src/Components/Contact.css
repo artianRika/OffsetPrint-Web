@@ -19,9 +19,9 @@ img{
 
 .headingBackground{
     position: absolute;
-    /*background-color: aliceblue;*/
-    background-color: rgba(229, 232, 236, 0.94);
+    background-color: rgba(229, 232, 236, 0.7);
     border-radius: 1rem;
+    width: 98vw;
 }
 
 
@@ -58,9 +58,10 @@ img{
 .middlePart .socialMediaRow{
     margin: 2rem 0;
     background-color: rgba(209, 209, 209, 0.44);
-    height: 10rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -68,8 +69,19 @@ img{
     align-self: center;
     margin-left: 4rem;
     margin-right: 4rem;
+    transition: box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
+.fbIcon:hover, .inIcon:hover, .instaIcon:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+    transform: scale(1.1);
+}
 
-
-
+.contactForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+}
