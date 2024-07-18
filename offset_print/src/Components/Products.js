@@ -1,6 +1,30 @@
+import Footer from "./Footer";
+
 const Products = () => {
     return(
-        <h1>prods</h1>
+        <div className={"products"}>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/><br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <Footer/>
+
+        </div>
     )
 }
 

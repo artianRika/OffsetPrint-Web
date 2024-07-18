@@ -29,7 +29,7 @@ img{
     color: black;
     font-size: 2.1em;
     text-align: center;
-    font-family: "Sylfaen";
+    font-family: "GalantoGrotesque", Arial;
     z-index: 1;
     padding: .2em .75em;
 }
@@ -57,7 +57,7 @@ img{
 
 .middlePart .socialMediaRow{
     margin: 2rem 0;
-    background-color: rgba(209, 209, 209, 0.44);
+    background-color: #dddddd;
     height: 7rem;
     display: flex;
     justify-content: center;

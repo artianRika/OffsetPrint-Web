@@ -1,16 +1,32 @@
-.footer{
+.wrapper{
     display: flex;
     justify-content: center;
-    opacity: .5;
+    align-content: center;
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 87vw;
+}
 
-.divider{
-    /*margin-top: 1rem;*/
+.footer .divider{
+    display: flex;
+    align-items: center;
     background-color: #b3b3b3;
     height: 1px;
     text-align: center;
-    width: 87vw;
+}
+.custom-class{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logoShort{
+    width: 10rem;
 }
 
 

@@ -1,13 +1,21 @@
 import "./Footer.css"
+import logo_short from "../logo_op_short.png"
 
 const Footer = () =>{
-    return(
-            <div className={"footer"}>
-                <div className={"divider"}>
 
-                    <pre style={{marginBottom: "1rem", marginTop: "0"}}>Copyright&copy; 2024 Offset Print</pre>
-                </div>
+    return(
+<div className={"wrapper"}>
+
+            <div className={"footer"}>
+                    <div className={"divider"}></div>
+                    <div className={"custom-class"}>
+                        <img className={"logoShort"} src={logo_short}/>
+                        <span>The pressure that leaves an impression!</span>
+                        <span>Copyright &copy; 2024 Offset Print</span>
+                    </div>
             </div>
+
+</div>
     )
 }
 

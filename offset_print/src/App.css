@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'GalantoGrotesque';
+  src: url('GalanoGrotesque-Light.ttf') format('truetype');
+}
+
 .App {
   text-align: center;
+  font-family: GalantoGrotesque;
+}
+
+a[href]{
+  color: black;
 }
 
 .App-logo {

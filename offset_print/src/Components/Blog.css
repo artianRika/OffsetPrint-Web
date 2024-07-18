@@ -1,0 +1,37 @@
+/* Blog.css */
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    max-width: 70vw;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    border-radius: 0.6rem;
+    padding: 1.2rem;
+    transition: transform 0.5s;
+}
+
+.blog:hover {
+    transform: scale(1.025);
+}
+
+.blog:not(:hover) {
+    transform: scale(1);
+}
+
+.blogContent {
+    flex: 1; /* Take remaining space */
+}
+
+
+.blogImage {
+    margin: 1rem;
+    max-width: 100%;
+    border-radius: 0.6rem;
+}
+
+#blogTitle {
+    font-variant: small-caps;
+    margin: 0 1rem;
+    line-height: 1.2;
+}

@@ -1,0 +1,10 @@
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.blogContainer{
+    margin: 0 0 6rem 0;
+}

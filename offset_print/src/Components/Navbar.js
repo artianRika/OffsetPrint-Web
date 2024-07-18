@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import logo from "../logo512.png"
+import logo from "../logo_op_bw.png"
 import {Link} from "react-router-dom";
 
 
@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className={"navbarDiv"}>
             <nav className={"navbar"}>
-                <img src={logo} width={"70px"}/>
+                <img src={logo} width={"100px"}/>
 
                 <ul>
                     <Link to={"/"}><li>Home</li></Link>

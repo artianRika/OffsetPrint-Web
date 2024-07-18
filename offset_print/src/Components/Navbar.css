@@ -4,7 +4,8 @@
     justify-content: space-around;
     align-items: center;
     padding: .5rem;
-    background-color: aliceblue;
+    background: linear-gradient(to right, #dddddd, #f0f0f0, #dddddd);
+    font-size: 1.1rem;
 }
 
 
@@ -13,15 +14,16 @@
     display: inline-block;
     margin-right: 1.3rem;
     position: relative;
+    font-weight: 700;
 }
 
 .navbar ul li:hover{
-    color: #61dbfd;
+    color: black;
     cursor: pointer;
     transition: 300ms;
 }
 .navbar ul li:not(hover){
-    color: black;
+    color: #393939;
     transition: 600ms;
 }
 
@@ -33,7 +35,7 @@
     bottom: 0;
     width: 0;
     height: 1px;
-    background-color: #61dbfd;
+    background-color: black;
     transition: width 300ms ease-in-out, left 300ms ease-in-out;
 }
 
