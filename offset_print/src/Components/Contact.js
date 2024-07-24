@@ -27,7 +27,7 @@ const Contact = () => {
             <div className={"topPart"}>
                 <img src={contactBanner}/>
                 <div className={"headingBackground"}>
-                    <h1 className={"contactUsHeading"}>you'd better Contact Us</h1>
+                    <h1 className={"contactUsHeading"}>you'd better contact us</h1>
                 </div>
             </div>
 

@@ -19,10 +19,6 @@
     transform: scale(1);
 }
 
-.blogContent {
-    flex: 1; /* Take remaining space */
-}
-
 
 .blogImage {
     margin: 1rem;

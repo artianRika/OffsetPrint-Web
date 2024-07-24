@@ -9,7 +9,7 @@ const Footer = () =>{
             <div className={"footer"}>
                     <div className={"divider"}></div>
                     <div className={"custom-class"}>
-                        <img className={"logoShort"} src={logo_short}/>
+                        <img draggable={false} className={"logoShort"} src={logo_short}/>
                         <span>The pressure that leaves an impression!</span>
                         <span>Copyright &copy; 2024 Offset Print</span>
                     </div>

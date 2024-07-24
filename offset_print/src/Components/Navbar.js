@@ -7,10 +7,10 @@ const Navbar = () => {
     return (
         <div className={"navbarDiv"}>
             <nav className={"navbar"}>
-                <img src={logo} width={"100px"}/>
+                <img draggable={false} src={logo} width={"100px"}/>
 
                 <ul>
-                    <Link to={"/"}><li>Home</li></Link>
+                    <Link to={"/home"}><li>Home</li></Link>
                     <Link to={"/products"}><li>Products</li></Link>
                     <Link to={"/about-us"}><li>About Us</li></Link>
                     <Link to={"/contact"}><li>Contact</li></Link>

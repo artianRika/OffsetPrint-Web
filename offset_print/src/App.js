@@ -4,20 +4,23 @@ import {Route, Routes} from "react-router-dom";
 import Products from "./Components/Products";
 import AboutUs from "./Components/AboutUs";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import Home from "./Components/Home";
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
 
-      <Navbar/>
+          <Navbar/>
 
-        <Routes>
-            <Route path={"/products"} element={<Products/>}/>
-            <Route path={"/about-us"} element={<AboutUs/>}/>
-            <Route path={"/contact"} element={<Contact/>}/>
-        </Routes>
+          <Routes>
+              <Route path={"/home"} element={<Home/>}/>
+              <Route path={"/products"} element={<Products/>}/>
+              <Route path={"/about-us"} element={<AboutUs/>}/>
+              <Route path={"/contact"} element={<Contact/>}/>
+          </Routes>
 
-    </div>
+      </div>
   );
 }
 
