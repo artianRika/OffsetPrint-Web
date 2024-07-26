@@ -15,6 +15,7 @@ import ncrPads from "../ncrPads.jpg"
 import lighter from "../lighter.png"
 import tshirt from "../tshirt.jpg"
 import pen from "../pen.jpg"
+import hotFoil from "../hotFoil.jpg"
 
 
 const Products = () => {
@@ -50,6 +51,12 @@ const Products = () => {
                 <Product title={"Event Tickets"}
                          textContent={"Durable and customizable event tickets with security features. Ideal for concerts, festivals, and shows."}
                          image={eventTicket}/>
+
+                <Product title={"Hot Foil Print"}
+                         textContent={"Special type of printing for creating impressing wedding invitations, tickets and other stuff."}
+                    image={hotFoil}
+                />
+
                 <Product title={"Banners"}
                          textContent={"Weather-resistant banners for indoor and outdoor use. Custom sizes and high-resolution printing."}
                          image={banner}/>
