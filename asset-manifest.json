@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/OffsetPrint-Web/static/css/main.9bec151d.css",
+    "main.js": "/OffsetPrint-Web/static/js/main.dc2855ae.js",
+    "static/js/453.948ce3d6.chunk.js": "/OffsetPrint-Web/static/js/453.948ce3d6.chunk.js",
+    "static/media/hotFoil.jpg": "/OffsetPrint-Web/static/media/hotFoil.7b0f96db321b649e14d7.jpg",
+    "static/media/insta_icon.png": "/OffsetPrint-Web/static/media/insta_icon.0f84529b1b3dfd542b07.png",
+    "static/media/menu.jpg": "/OffsetPrint-Web/static/media/menu.e0fb853403d32c3691ec.jpg",
+    "static/media/contactUsPhoto.jpg": "/OffsetPrint-Web/static/media/contactUsPhoto.4c0a2fb5c94a9592b666.jpg",
+    "static/media/eventTicket.jpg": "/OffsetPrint-Web/static/media/eventTicket.8fe93bd6e7f3a435480b.jpg",
+    "static/media/calendar.jpg": "/OffsetPrint-Web/static/media/calendar.5dc2862d523a2ff96f49.jpg",
+    "static/media/brochures.jpeg": "/OffsetPrint-Web/static/media/brochures.ee57cd8ca9342db4fa9f.jpeg",
+    "static/media/tshirt.jpg": "/OffsetPrint-Web/static/media/tshirt.6972755b32afb2c106a2.jpg",
+    "static/media/offsetPrintKicevoBW.jpg": "/OffsetPrint-Web/static/media/offsetPrintKicevoBW.a9739abcce6bec4d39f1.jpg",
+    "static/media/banner.jpg": "/OffsetPrint-Web/static/media/banner.4e2fbdd54bff2364bddd.jpg",
+    "static/media/fb_icon.png": "/OffsetPrint-Web/static/media/fb_icon.5400e38a14ad105fb3bc.png",
+    "static/media/businessCard.jpg": "/OffsetPrint-Web/static/media/businessCard.1619c5d782230e3923a9.jpg",
+    "static/media/logo_op_bw.png": "/OffsetPrint-Web/static/media/logo_op_bw.e23e18f356db25bc1495.png",
+    "static/media/in_icon.png": "/OffsetPrint-Web/static/media/in_icon.4f1890023898d1c4f07e.png",
+    "static/media/flyer.png": "/OffsetPrint-Web/static/media/flyer.51c67b03137e6d1dbe71.png",
+    "static/media/pen.jpg": "/OffsetPrint-Web/static/media/pen.55d9c6d0a1ce6e3e707d.jpg",
+    "static/media/books.png": "/OffsetPrint-Web/static/media/books.b156ab94867e1a30d321.png",
+    "static/media/ncrPads.jpg": "/OffsetPrint-Web/static/media/ncrPads.2ba0567593fd0bf4c52c.jpg",
+    "static/media/GalanoGrotesque-Light.ttf": "/OffsetPrint-Web/static/media/GalanoGrotesque-Light.f2a62d05cb982a6c4009.ttf",
+    "static/media/notebook.jpg": "/OffsetPrint-Web/static/media/notebook.4b2b76f85892fc0f90ac.jpg",
+    "static/media/oldFctory.jpg": "/OffsetPrint-Web/static/media/oldFctory.4bdb885bbf5a5f2b6685.jpg",
+    "static/media/lighter.png": "/OffsetPrint-Web/static/media/lighter.c48f1c1c42354c70b3b0.png",
+    "static/media/envelopes.png": "/OffsetPrint-Web/static/media/envelopes.5b2d64b70713cb4e2d4c.png",
+    "static/media/logo_op_short.png": "/OffsetPrint-Web/static/media/logo_op_short.03bd85a9b30e7b58be5b.png",
+    "index.html": "/OffsetPrint-Web/index.html",
+    "main.9bec151d.css.map": "/OffsetPrint-Web/static/css/main.9bec151d.css.map",
+    "main.dc2855ae.js.map": "/OffsetPrint-Web/static/js/main.dc2855ae.js.map",
+    "453.948ce3d6.chunk.js.map": "/OffsetPrint-Web/static/js/453.948ce3d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bec151d.css",
+    "static/js/main.dc2855ae.js"
+  ]
+}
