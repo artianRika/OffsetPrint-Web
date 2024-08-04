@@ -2,10 +2,10 @@
 .product {
     display: flex;
     flex-direction: row;
-    width: 42vw;
-    height: 17rem;
+    width: 40vw;
+    height: 16rem;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
+    margin: .5rem;
     border-radius: 0.6rem;
     padding: 1.2rem;
     transition: transform 0.5s;

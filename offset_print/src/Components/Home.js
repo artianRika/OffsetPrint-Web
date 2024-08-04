@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import "./Home.css"
 
-import CarouselFadeExample from "./CarouselFadeExample";
+import offsetPrintPhotoBW from "../offsetPrintKicevoBW.jpg"
 
 const Home = () =>{
     return(
@@ -17,31 +17,10 @@ const Home = () =>{
                 </div>
 
                 <div className="topRight">
-                    <CarouselFadeExample/>
+                        <img src={offsetPrintPhotoBW}/>
                 </div>
             </div>
 
-            <div className={"homeMiddlePart"}>
-
-                <h2>Why Choose Us?</h2>
-                <p>Superior Quality: Our state-of-the-art offset printing technology ensures every print is vibrant,
-                    sharp,
-                    and true to your vision.
-                    Expert Team: With years of experience, our team of printing professionals is dedicated to providing
-                    exceptional service and support.
-                    Eco-Friendly Practices: We are committed to sustainability, using eco-friendly inks and materials to
-                    minimize our environmental impact.
-                    Custom Solutions: From business cards and brochures to large format prints, we offer a wide range of
-                    customizable printing options to suit your needs.
-                    Competitive Pricing: Get premium quality at competitive rates, ensuring you receive the best value
-                    for
-                    your investment.
-                </p>
-
-            </div>
-
-
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
             <Footer/>
         </div>
