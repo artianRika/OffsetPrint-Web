@@ -3,9 +3,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: .5rem;
+    padding: .2rem;
     background: linear-gradient(to right, #dddddd, #f0f0f0, #dddddd);
-    font-size: 1.05rem;
+    font-size: .9rem;
 }
 
 
@@ -42,4 +42,13 @@
 .navbar ul li:hover::after {
     width: 100%;
     left: 0;
+}
+
+.flagContainer img{
+    height: 13px;
+    margin: 3px;
+}
+
+.flagContainer img:hover {
+    cursor: pointer;
 }

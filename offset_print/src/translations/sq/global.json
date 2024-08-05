@@ -1,0 +1,11 @@
+{
+  "navbar": {
+    "home": "Ballina",
+    "products": "Produktet",
+    "about-us": "Rreth nesh",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "body": "Shtypshkonje"
+  }
+}

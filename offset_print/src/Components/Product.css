@@ -27,8 +27,8 @@
 
 .productImage {
     margin: .3rem;
-    width: 290px;
-    height: 190px;
+    width: 200px;
+    height: 130px;
     border-radius: 0.6rem;
 }
 
@@ -42,5 +42,5 @@
     align-self: center;
     margin: 0 auto;
     padding: 0 10px;
-    font-size: 1.2rem;
+    font-size: .9rem;
 }

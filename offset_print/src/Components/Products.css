@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 1rem 0;
+    font-size: .9rem;
 }
 
 .products .productsContainer{
