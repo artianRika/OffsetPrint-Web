@@ -26,10 +26,10 @@ img {
 
 
 .topPart .contactUsHeading {
-    color: black;
-    font-size: 2.1em;
+    color: #5e5e5e;
+    font-size: 1.7em;
     text-align: center;
-    font-family: "GalantoGrotesque", Arial;
+    font-family: "GalantoGrotesque", Arial, serif;
     z-index: 1;
     padding: .2em .75em;
 }
@@ -95,5 +95,10 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 6rem;
+    margin: 4.5rem 0;
+}
+
+.iframe{
+    width: 400px;
+    height: 400px;
 }

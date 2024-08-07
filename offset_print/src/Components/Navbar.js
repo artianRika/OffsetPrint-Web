@@ -2,10 +2,10 @@ import "./Navbar.css"
 import logo from "../logo_op_bw.png"
 import {Link} from "react-router-dom";
 
-import albanianFlag from "../albanianFlag.jpg"
-import englishFlag from "../englishFlag.jpg"
-import macedonianFlag from "../macedonianFlag.jpg"
-import {useTranslation} from "react-i18next";
+// import albanianFlag from "../albanianFlag.jpg"
+// import englishFlag from "../englishFlag.jpg"
+// import macedonianFlag from "../macedonianFlag.jpg"
+// import {useTranslation} from "react-i18next";
 
 const Navbar = () => {
 

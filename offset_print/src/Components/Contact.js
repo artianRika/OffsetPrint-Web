@@ -80,7 +80,8 @@ const Contact = () => {
 
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.89449553286!2d20.956140274584943!3d41.506561088596925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1351364ecd24bcfb%3A0x524dd00c5bf627a8!2sOffset%20Print!5e0!3m2!1ssq!2smk!4v1720785764412!5m2!1ssq!2smk"
-                width="400" height="400" loading="lazy"
+                loading="lazy"
+                className={"iframe"}
                 referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
