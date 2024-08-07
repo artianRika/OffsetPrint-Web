@@ -5,18 +5,21 @@ import instaIcon from "../insta_icon.png"
 import inIcon from "../in_icon.png"
 import ContactForm from "./ContactForm";
 import Footer from './Footer'
+import {useTranslation} from "react-i18next";
 
 const Contact = () => {
 
+    const {t} = useTranslation();
+
     const workingHours = [
 
-        {day: "Monday", hours: "8:30 - 17:30"},
-        {day: "Tuesday", hours: "8:30 - 17:30"},
-        {day: "Wednesday", hours: "8:30 - 17:30"},
-        {day: "Thursday", hours: "8:30 - 17:30"},
-        {day: "Friday", hours: "8:30 - 17:30"},
-        {day: "Saturday", hours: "8:30 - 17:30"},
-        {day: "Sunday", hours: "closed"},
+        {day: t('contact.weekDays.monday'), hours: "8:30 - 17:30"},
+        {day: t('contact.weekDays.tuesday'), hours: "8:30 - 17:30"},
+        {day: t('contact.weekDays.wednesday'), hours: "8:30 - 17:30"},
+        {day: t('contact.weekDays.thursday'), hours: "8:30 - 17:30"},
+        {day: t('contact.weekDays.friday'), hours: "8:30 - 17:30"},
+        {day: t('contact.weekDays.saturday'), hours: "8:30 - 17:30"},
+        {day: t('contact.weekDays.sunday'), hours: t('contact.closed')}
     ]
 
 
@@ -35,16 +38,16 @@ const Contact = () => {
 
                 <div className={"mainContainer"}>
                     <div className={"containerLeft"}>
-                        <h2>Get in touch</h2>
-                        <p>Email: <a href={`mailto:offset.print.mk@gmail.com`}>offset.print.mk@gmail.com</a></p>
-                        <p>Phone: +389 70 223 196</p>
-                        <p>Fax: +389 45 225 236</p>
-                        <pre><a href={"https://maps.app.goo.gl/i5RL2pSSVMWSpxD19"}>Address: Rudnicka bb. Kicevo 6250 North Macedonia</a></pre>
+                        <h2>{t('contact.getInTouch')}</h2>
+                        <p>{t('contact.email')} <a href={`mailto:offset.print.mk@gmail.com`}>offset.print.mk@gmail.com</a></p>
+                        <p>{t('contact.phone')}: +389 70 223 196</p>
+                        <p>{t('contact.fax')}: +389 45 225 236</p>
+                        <pre><a href={"https://maps.app.goo.gl/i5RL2pSSVMWSpxD19"}>{t('contact.address')}</a></pre>
                     </div>
 
 
                     <div className={"containerRight"}>
-                        <h2>Business Hours</h2>
+                        <h2>{t('contact.businessHours')}</h2>
                         <table>
                             <tbody>
 

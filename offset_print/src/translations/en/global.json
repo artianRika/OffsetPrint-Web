@@ -6,6 +6,32 @@
     "contact": "Contact"
   },
   "home": {
-    "body": "printing house"
+    "welcomeHeading": "Welcome to Offset Print",
+    "welcomeParagraph": "At Offset Print, we bring your ideas to life with precision, quality, and efficiency. As a leading offset printing factory, we specialize in delivering high-quality print solutions tailored to meet your unique needs."
+  },
+  "products": {
+
+  },
+  "contact": {
+    "getInTouch": "Get in touch",
+    "businessHours": "Business Hours",
+    "weekDays": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "phone": "Phone",
+    "fax": "Fax",
+    "address": "Address: Rudnicka bb. Kicevo 6250 North Macedonia",
+    "closed": "Closed",
+    "emailSent": "Email sent successfully"
   }
 }

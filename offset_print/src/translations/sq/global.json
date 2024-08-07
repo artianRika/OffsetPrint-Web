@@ -6,6 +6,30 @@
     "contact": "Kontakt"
   },
   "home": {
-    "body": "Shtypshkonje"
+    "welcomeHeading": "Mirë se vini në Offset Print",
+    "welcomeParagraph": "Në Offset Print, ne i realizojmë idetë tuaja me saktësi, cilësi dhe efikasitet. Si një fabrikë lider për printime, ne jemi të specializuar në ofrimin e produkteve tona me cilësi të lartë të përshtatura për nevojat tuaja unike."
+  },
+  "contact": {
+    "getInTouch": "Kontaktoni",
+    "businessHours": "Orari i punës",
+    "weekDays": {
+      "monday": "E hënë",
+      "tuesday": "E martë",
+      "wednesday": "E mërkurë",
+      "thursday": "E enjte",
+      "friday": "E premte",
+      "saturday": "E shtunë",
+      "sunday": "E diel"
+    },
+    "name": "Emri",
+    "email": "Email",
+    "message": "Mesazhi",
+    "send": "Dërgo",
+    "phone": "Telefoni",
+    "fax": "Faksi",
+    "address": "Adresa: Rudnicka nn. Kërçovë 6250 RMV",
+    "closed": "Mbyllur",
+    "emailSent": "Emaili u dërgua me sukses"
   }
+
 }

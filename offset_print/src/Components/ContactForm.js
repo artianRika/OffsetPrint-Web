@@ -1,10 +1,12 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./ContactForm.css"
+import {useTranslation} from "react-i18next";
 
 
 const ContactForm = () => {
     const form = useRef();
+    const {t} = useTranslation();
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -15,7 +17,7 @@ const ContactForm = () => {
             })
             .then(
                 () => {
-                    alert("success")
+                    alert(t('contact.emailSent'))
                 },
                 (error) => {
                     alert(error)
@@ -25,13 +27,13 @@ const ContactForm = () => {
 
     return (
         <form ref={form} onSubmit={sendEmail} className={"contact-form"}>
-            <label>Name</label>
+            <label>{t('contact.name')}</label>
             <input type="text" name="user_name" />
-            <label>Email</label>
+            <label>{t('contact.email')}</label>
             <input type="email" name="user_email" />
-            <label>Message</label>
+            <label>{t('contact.message')}</label>
             <textarea name="message" />
-            <input type="submit" value="Send" />
+            <input type="submit" value={t('contact.send')} />
         </form>
     );
 };
