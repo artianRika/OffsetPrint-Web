@@ -66,11 +66,9 @@ const Contact = () => {
 
                 <div className={"socialMediaRow"}>
                     <a href={"https://www.facebook.com/p/Offset-Print-100063957314082/?locale=en_EN"}> <img
-                        className={"fbIcon"} src={fbIcon} width="60" height="60"/></a>
-                    <a href={"https://www.instagram.com/offset_print/"}> <img className={"instaIcon"} src={instaIcon}
-                                                                              width="54" height="54"/></a>
-                    <a href={"https://mk.linkedin.com/in/safet-rika-a2834bb"}><img className={"inIcon"} src={inIcon}
-                                                                                   width="60" height="60"/></a>
+                        className={"fbIcon"} src={fbIcon}/></a>
+                    <a href={"https://www.instagram.com/offset_print/"}> <img className={"instaIcon"} src={instaIcon}/></a>
+                    <a href={"https://mk.linkedin.com/in/safet-rika-a2834bb"}><img className={"inIcon"} src={inIcon}/></a>
                 </div>
 
             </div>

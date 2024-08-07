@@ -1,8 +1,8 @@
-img{
+img {
     user-select: none;
 }
 
-.topPart{
+.topPart {
     position: relative;
     max-height: 35vh;
     display: flex;
@@ -10,14 +10,14 @@ img{
     align-items: center;
 }
 
-.topPart img{
+.topPart img {
     width: 100vw;
     height: 35vh;
     object-fit: cover;
     opacity: .75;
 }
 
-.headingBackground{
+.headingBackground {
     position: absolute;
     background-color: rgba(229, 232, 236, 0.7);
     border-radius: 1rem;
@@ -25,7 +25,7 @@ img{
 }
 
 
-.topPart .contactUsHeading{
+.topPart .contactUsHeading {
     color: black;
     font-size: 2.1em;
     text-align: center;
@@ -34,52 +34,64 @@ img{
     padding: .2em .75em;
 }
 
-.middlePart .mainContainer{
+.middlePart .mainContainer {
     display: flex;
     flex-direction: row;
     padding: .2rem;
     justify-content: space-around;
 }
 
-.middlePart .containerLeft, .middlePart .containerRight{
+.middlePart .containerLeft, .middlePart .containerRight {
     text-align: justify;
 }
 
-.containerRight{
+.containerRight {
     margin-left: -10rem;
 }
 
-.containerRight table, .containerRight tbody, .containerRight td, .containerRight tr{
+.containerRight table, .containerRight tbody, .containerRight td, .containerRight tr {
     border-bottom: 1px inset #d1d1d1;
     border-collapse: collapse;
     padding: .3em;
 }
 
-.middlePart .socialMediaRow{
+.middlePart .socialMediaRow {
     margin: 2rem 0;
     background-color: #dddddd;
-    height: 7rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.fbIcon, .inIcon, .instaIcon{
+.fbIcon, .inIcon {
     align-self: center;
     margin-left: 4rem;
     margin-right: 4rem;
     transition: box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    height: 54px;
+    width: 54px;
 }
 
-.fbIcon:hover, .inIcon:hover, .instaIcon:hover{
+.instaIcon {
+    align-self: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    transition: box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    width: 49px;
+    height: 49px;
+}
+
+
+.fbIcon:hover, .inIcon:hover, .instaIcon:hover {
     cursor: pointer;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
     0 6px 6px rgba(0, 0, 0, 0.23);
     transform: scale(1.1);
 }
 
-.contactForm{
+.contactForm {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
