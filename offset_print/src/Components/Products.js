@@ -16,7 +16,6 @@ import lighter from "../lighter.png"
 import tshirt from "../tshirt.jpg"
 import pen from "../pen.jpg"
 import hotFoil from "../hotFoil.jpg"
-import {useTransition} from "react";
 import {useTranslation} from "react-i18next";
 
 
