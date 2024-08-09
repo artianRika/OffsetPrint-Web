@@ -16,65 +16,82 @@ import lighter from "../lighter.png"
 import tshirt from "../tshirt.jpg"
 import pen from "../pen.jpg"
 import hotFoil from "../hotFoil.jpg"
+import {useTransition} from "react";
+import {useTranslation} from "react-i18next";
 
 
 const Products = () => {
+    const {t} = useTranslation()
+
     return(
         <div className={"products"}>
             <h2>Products</h2>
 
-            <div className={"productsContainer"}>
-                <Product title={"Books"}
-                         textContent={"Professionally printed books with crisp text and vibrant images. Available in various sizes and binding options, ideal for authors, publishers, and businesses."}
-                         image={book}/>
-                <Product title={"Custom Notebooks"}
-                         textContent={"Our Customizable Notebooks are ideal for capturing ideas, taking notes, and planning projects. Personalise your unique and functional promotional item!"}
-                         image={notebook}/>
-                <Product title={"Business Cards"}
-                         textContent={"Elevate your professional presence with Premium Business Cards. Perfect for networking events, client meetings, and everyday business interactions."}
-                         image={businessCard}/>
-                <Product title={"NCR Pads"}
-                         textContent={"Customizable NCR Pads for creating instant duplicates of invoices, receipts, and order forms. Perfect for efficient business operations"}
-                         image={ncrPads}/>
-                <Product title={"Promotional Flyers"}
-                         textContent={"Promotional Flyers as an effective marketing tool, with customizable templates to meet your needs."}
-                         image={flyer}/>
-                <Product title={"Brochures"}
-                         textContent={"Deliver your message with clarity and style using our Professional Brochures. Ideal for marketing campaigns, product information, and corporate profiles."}
-                         image={brochures}/>
-                <Product title={"Menus"}
-                         textContent={"High-quality, customizable menus for restaurants, cafes, and bars. Available in various formats and finishes."}
-                         image={menu}/>
-                <Product title={"Custom Calendars"}
-                         textContent={"Keep your brand in front of clients all year long with a Personalized Calendar. Available in wall, desk, and pocket formats."}
-                         image={calendar}/>
-                <Product title={"Event Tickets"}
-                         textContent={"Durable and customizable event tickets with security features. Ideal for concerts, festivals, and shows."}
-                         image={eventTicket}/>
+        <div className={"productsContainer"}>
+            <Product title={t('products.books')}
+                     textContent={t('products.bookDescription')}
+                     image={book}/>
 
-                <Product title={"Hot Foil Print"}
-                         textContent={"Special type of printing for creating impressing wedding invitations, tickets and other stuff."}
-                    image={hotFoil}
-                />
+            <Product title={t('products.customNotebooks')}
+                     textContent={t('products.notebookDescription')}
+                     image={notebook}/>
 
-                <Product title={"Banners"}
-                         textContent={"Weather-resistant banners for indoor and outdoor use. Custom sizes and high-resolution printing."}
-                         image={banner}/>
-                <Product title={"Stationery"}
-                         textContent={"Elegant stationery sets including letterheads, envelopes, and notepads. Perfect for corporate branding."}
-                         image={envelopes}/>
-                <Product title={"T-Shirts"}
-                         textContent={"Comfortable and stylish custom T-shirts. Perfect for promotional events, team uniforms, and everyday wear."}
-                         image={tshirt}/>
-                <Product title={"Pens"}
-                         textContent={"High-quality, customizable pens for everyday use. Ideal for branding, promotions, and corporate gifts."}
-                         image={pen}/>
-                <Product title={"Lighters"}
-                         textContent={"Reliable and customizable lighters. Ideal for promotional giveaways and everyday use."}
-                         image={lighter}/>
-            </div>
+            <Product title={t('products.businessCards')}
+                     textContent={t('products.businessCardDescription')}
+                     image={businessCard}/>
 
-            <h2 id={"bottomText"}>and much more...</h2>
+            <Product title={t('products.ncrPads')}
+                     textContent={t('products.ncrPadsDescription')}
+                     image={ncrPads}/>
+
+            <Product title={t('products.promotionalFlyers')}
+                     textContent={t('products.promotionalFlyersDescription')}
+                     image={flyer}/>
+
+            <Product title={t('products.brochures')}
+                     textContent={t('products.brochuresDescription')}
+                     image={brochures}/>
+
+            <Product title={t('products.menus')}
+                     textContent={t('products.menusDescription')}
+                     image={menu}/>
+
+            <Product title={t('products.customCalendars')}
+                     textContent={t('products.customCalendarsDescription')}
+                     image={calendar}/>
+
+            <Product title={t('products.eventTickets')}
+                     textContent={t('products.eventTicketsDescription')}
+                     image={eventTicket}/>
+
+            <Product title={t('products.hotFoilPrint')}
+                     textContent={t('products.hotFoilPrintDescription')}
+                     image={hotFoil}/>
+
+            <Product title={t('products.banners')}
+                     textContent={t('products.bannersDescription')}
+                     image={banner}/>
+
+            <Product title={t('products.stationery')}
+                     textContent={t('products.stationeryDescription')}
+                     image={envelopes}/>
+
+            <Product title={t('products.tshirts')}
+                     textContent={t('products.tshirtsDescription')}
+                     image={tshirt}/>
+
+            <Product title={t('products.pens')}
+                     textContent={t('products.pensDescription')}
+                     image={pen}/>
+
+            <Product title={t('products.lighters')}
+                     textContent={t('products.lightersDescription')}
+                     image={lighter}/>
+
+        </div>
+
+
+            <h2 id={"bottomText"}>{t('products.muchMore')}</h2>
 
 
             <Footer/>
