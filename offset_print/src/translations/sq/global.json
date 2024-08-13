@@ -44,6 +44,17 @@
     "lightersDescription": "Çakmakë të besueshme dhe të personalizueshme. Ideale për dhurata promovuese dhe përdorim të përditshëm."
 
   },
+  "about_us": {
+    "aboutUs": "Rreth Nesh",
+    "ceo": "Drejtori Ekzekutiv",
+    "ourMission": "Misioni Ynë",
+    "whatWeDo": "Çfarë Bëjmë",
+    "ourStory": "Historia Jonë",
+    "ceoTextContent": "Themelues dhe Drejtor Ekzekutiv i Offset Print, është një profesionist në operimin e makinave të shtypit. Përvoja dhe përkushtimi i tij kanë qenë faktorë kyç në vendosjen e Offset Print si lider në industri.",
+    "ourMissionTextContent": "Misioni ynë është të ofrojmë vazhdimisht zgjidhje të shtypit me kalibër të lartë që tejkalojnë pritjet e klientëve përmes përkushtimit ndaj precizitetit dhe inovacionit, duke siguruar cilësi dhe kënaqësi të pakrahasueshme.",
+    "whatWeDoTextContent": "Ne jemi të specializuar në shtypjen ofset, duke ofruar një gamë të gjerë produktesh përfshirë libra, gazeta, revista, fletore, kartëvizita dhe më shumë.",
+    "ourStoryTextContent": "E themeluar në vitin 2007, shtypshkronja jonë filloi me një dashuri për shtypjen ofset. Gjatë viteve, ne jemi rritur dhe kemi zgjeruar shërbimet tona për të përmbushur nevojat e ndryshme të klientëve tanë."
+  },
   "contact": {
     "getInTouch": "Kontaktoni",
     "businessHours": "Orari i punës",

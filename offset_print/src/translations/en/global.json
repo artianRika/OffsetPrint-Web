@@ -43,6 +43,17 @@
     "pensDescription": "High-quality, customizable pens for everyday use. Ideal for branding, promotions, and corporate gifts.",
     "lightersDescription": "Reliable and customizable lighters. Ideal for promotional giveaways and everyday use."
   },
+  "about_us": {
+    "aboutUs": "About Us",
+    "ceo": "CEO",
+    "ourMission": "Our Mission",
+    "whatWeDo": "What We Do",
+    "ourStory": "Our Story",
+    "ceoTextContent": "Founder & CEO of Offset Print, is a professional in operating printing machines. His experience and dedication have been key factors in establishing Offset Print as a leader in the industry.",
+    "ourMissionTextContent": "Our mission is to consistently deliver high-caliber printing solutions that exceed customer expectations through dedication to precision and innovation, ensuring unparalleled quality and satisfaction.",
+    "whatWeDoTextContent": "We are specialized in offset printing, offering a wide range of products including books, newspapers, magazines, notebooks, business cards, and more.",
+    "ourStoryTextContent": "Founded in 2007, our printing house started with a love for offset printing. Over the years, we have grown and expanded our services to meet the diverse needs of our clients.."
+  },
   "contact": {
     "getInTouch": "Get in touch",
     "businessHours": "Business Hours",

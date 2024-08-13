@@ -9,14 +9,14 @@ const Blog = (props) =>{
                 {props.hasImage ? (
                         <div className={"blogImageContainer "}>
                             <h2 id={"blogTitle"}>{props.title}</h2>
-                            <div dangerouslySetInnerHTML={{__html: props.textContent}}/>
+                            <div className={"blogTextContent"} dangerouslySetInnerHTML={{__html: props.textContent}}/>
                             <img className={"blogImage"} src={props.image}/>
                         </div>
                     )
                     : (
                         <>
                             <h2 id={"blogTitle"}>{props.title}</h2>
-                             <div dangerouslySetInnerHTML={{__html: props.textContent}}/>
+                             <div className={"blogTextContent"} dangerouslySetInnerHTML={{__html: props.textContent}}/>
                         </>
                     )
                 }

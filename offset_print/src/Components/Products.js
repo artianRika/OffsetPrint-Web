@@ -24,7 +24,7 @@ const Products = () => {
 
     return(
         <div className={"products"}>
-            <h2>Products</h2>
+            <h2>{t('products.products')}</h2>
 
         <div className={"productsContainer"}>
             <Product title={t('products.books')}

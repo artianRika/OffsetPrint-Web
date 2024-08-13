@@ -27,7 +27,14 @@
 }
 
 #blogTitle {
+    text-align: left;
     font-variant: small-caps;
-    margin: 0 1rem;
-    line-height: 1.2;
+    margin: 0 .4rem;
+    align-self: center;
+    line-height: 1.1;
+}
+
+.blogTextContent{
+    margin-left: 1.5rem;
+    align-self: center;
 }
