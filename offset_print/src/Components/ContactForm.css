@@ -43,3 +43,11 @@
 .contact-form input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+@media (max-width: 800px){
+    .contact-form{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+}

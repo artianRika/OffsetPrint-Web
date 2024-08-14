@@ -2,10 +2,7 @@
 .product {
     display: flex;
     flex-direction: row;
-    width: 38vw;
-    height: 12rem;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-    margin: .5rem;
     border-radius: 0.6rem;
     padding: 1.2rem;
     transition: transform 0.5s;
@@ -43,4 +40,26 @@
     margin: 0 auto;
     padding: 0 10px;
     font-size: .9rem;
+}
+
+@media (max-width: 800px){
+    .product{
+        margin: .5rem 2rem;
+        flex-direction: column;
+    }
+
+    .productImage {
+        margin: .3rem;
+        border-radius: 0.6rem;
+        align-self: center;
+    }
+
+    #productTitle {
+        margin-bottom: 3rem;
+    }
+
+    .productDescription{
+        align-self: center;
+        text-align: left;
+    }
 }

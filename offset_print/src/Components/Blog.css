@@ -19,7 +19,6 @@
     transform: scale(1);
 }
 
-
 .blogImage {
     margin: 1rem;
     max-width: 100%;
@@ -34,7 +33,39 @@
     line-height: 1.1;
 }
 
-.blogTextContent{
+.blogTextContent {
     margin-left: 1.5rem;
     align-self: center;
+}
+
+.ourStory {
+    padding: 0 0 0 6rem;
+    margin-top: 1.4rem;
+}
+
+@media (max-width: 800px) {
+    .ourStory {
+        padding: 0;
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+
+    #blogTitle {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .blogTextContent {
+        margin-left: 1.5rem;
+        align-self: center;
+        text-align: left;
+    }
+
+    .blogImage {
+        margin: 1rem;
+        max-width: 81%;
+        border-radius: 0.6rem;
+    }
 }

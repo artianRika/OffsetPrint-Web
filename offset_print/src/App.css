@@ -5,7 +5,7 @@
 
 .App {
   text-align: center;
-  font-family: GalantoGrotesque;
+  font-family: GalantoGrotesque, Roboto, sans-serif;
 }
 
 a[href]{

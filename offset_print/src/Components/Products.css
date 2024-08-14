@@ -13,6 +13,13 @@
 }
 
 #bottomText{
-
     margin: 2rem 0 6rem 0;
+}
+
+@media (max-width: 800px) {
+    .products .productsContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+    }
 }
