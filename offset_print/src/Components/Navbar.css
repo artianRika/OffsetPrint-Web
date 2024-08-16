@@ -1,15 +1,16 @@
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: .2rem;
+    padding: 0.2rem;
     background: linear-gradient(to right, #dddddd, #f0f0f0, #dddddd);
-    font-size: .9rem;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 100;
 }
 
-
-.navbar ul li{
+.navbar ul li {
     list-style-type: none;
     display: inline-block;
     margin-right: 1.3rem;
@@ -17,16 +18,44 @@
     font-weight: 700;
 }
 
-.navbar ul li:hover{
+.smallList {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-10px); /* Move up slightly */
+    transition: max-height 200ms ease, opacity 200ms ease, transform 200ms ease;
+}
+
+.flagSmallContainer{
+    display: none;
+    height: 17px;
+    overflow: hidden;
+}
+
+.smallList.active {
+    max-height: 600px; /* Adjust to your content's height */
+    opacity: 1;
+    transform: translateY(0); /* Reset position */
+    transition: max-height 200ms ease, opacity 200ms ease, transform 200ms ease;
+}
+
+
+.smallList ul li {
+    display: none;
+    font-weight: 700;
+}
+
+
+.navbar ul li:hover {
     color: black;
     cursor: pointer;
     transition: 300ms;
 }
-.navbar ul li:not(hover){
+
+.navbar ul li:not(hover) {
     color: #393939;
     transition: 600ms;
 }
-
 
 .navbar ul li::after {
     content: '';
@@ -44,11 +73,81 @@
     left: 0;
 }
 
-.flagContainer img{
+.flagContainer img {
     height: 13px;
     margin: 3px;
 }
 
 .flagContainer img:hover {
     cursor: pointer;
+}
+
+.burger {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .languageSelectorDiv, .navbarList {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        padding: 0 2.5rem;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .burger div {
+        width: 100%;
+        height: 3px;
+        background-color: #333;
+        border-radius: 2px;
+    }
+
+    .smallList {
+        display: flex;
+        flex-direction: column;
+        font-family: GalantoGrotesque, serif;
+        transform: translateY(-10px); /* Move up slightly */
+    }
+
+    .smallList.active {
+        display: block;
+        background: linear-gradient(to right, #dddddd, #f0f0f0, #dddddd);
+        transform: translateY(0); /* Reset position */
+        transition: opacity 400ms ease, transform 400ms ease;
+    }
+
+    .smallList ul{
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .smallList ul li {
+        padding: 5px 2.5rem;
+        margin: 2px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    a[href]{
+        text-decoration: none;
+    }
+
+
+    .flagSmallContainer{
+        display: flex;
+        justify-content: space-around;
+        margin: 1rem;
+    }
+
 }
