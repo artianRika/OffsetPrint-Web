@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/OffsetPrint-Web/static/css/main.9bec151d.css",
-    "main.js": "/OffsetPrint-Web/static/js/main.dc2855ae.js",
+    "main.css": "/OffsetPrint-Web/static/css/main.3d8ab0ae.css",
+    "main.js": "/OffsetPrint-Web/static/js/main.6a5c6e68.js",
     "static/js/453.948ce3d6.chunk.js": "/OffsetPrint-Web/static/js/453.948ce3d6.chunk.js",
+    "static/media/englishFlag.jpg": "/OffsetPrint-Web/static/media/englishFlag.caac25ac583c588a6cce.jpg",
     "static/media/hotFoil.jpg": "/OffsetPrint-Web/static/media/hotFoil.7b0f96db321b649e14d7.jpg",
+    "static/media/macedonianFlag.jpg": "/OffsetPrint-Web/static/media/macedonianFlag.9a40dc09b92f6c5dafc8.jpg",
+    "static/media/albanianFlag.jpg": "/OffsetPrint-Web/static/media/albanianFlag.7c33b658a053c31bf6cf.jpg",
     "static/media/insta_icon.png": "/OffsetPrint-Web/static/media/insta_icon.0f84529b1b3dfd542b07.png",
     "static/media/menu.jpg": "/OffsetPrint-Web/static/media/menu.e0fb853403d32c3691ec.jpg",
     "static/media/contactUsPhoto.jpg": "/OffsetPrint-Web/static/media/contactUsPhoto.4c0a2fb5c94a9592b666.jpg",
@@ -28,12 +31,12 @@
     "static/media/envelopes.png": "/OffsetPrint-Web/static/media/envelopes.5b2d64b70713cb4e2d4c.png",
     "static/media/logo_op_short.png": "/OffsetPrint-Web/static/media/logo_op_short.03bd85a9b30e7b58be5b.png",
     "index.html": "/OffsetPrint-Web/index.html",
-    "main.9bec151d.css.map": "/OffsetPrint-Web/static/css/main.9bec151d.css.map",
-    "main.dc2855ae.js.map": "/OffsetPrint-Web/static/js/main.dc2855ae.js.map",
+    "main.3d8ab0ae.css.map": "/OffsetPrint-Web/static/css/main.3d8ab0ae.css.map",
+    "main.6a5c6e68.js.map": "/OffsetPrint-Web/static/js/main.6a5c6e68.js.map",
     "453.948ce3d6.chunk.js.map": "/OffsetPrint-Web/static/js/453.948ce3d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bec151d.css",
-    "static/js/main.dc2855ae.js"
+    "static/css/main.3d8ab0ae.css",
+    "static/js/main.6a5c6e68.js"
   ]
 }
