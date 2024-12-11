@@ -18,12 +18,12 @@ const Navbar = () => {
     return (
         <div className={"navbarDiv"}>
             <nav className={"navbar"}>
-                <Link to={"/home"}>
+                <Link to={"/"}>
                     <img draggable={false} src={logo} width={"80px"} alt="logo" />
                 </Link>
 
                 <ul className={"navbarList"}>
-                    <Link to={"/home"}>
+                    <Link to={"/"}>
                         <li>{t("navbar.home")}</li>
                     </Link>
                     <Link to={"/products"}>

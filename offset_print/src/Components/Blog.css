@@ -30,6 +30,7 @@
     font-variant: small-caps;
     margin: 0 .4rem;
     align-self: center;
+    font-size: 1.2rem;
     line-height: 1.1;
 }
 
@@ -42,6 +43,7 @@
     padding: 0 0 0 6rem;
     margin-top: 1.4rem;
 }
+
 
 @media (max-width: 800px) {
     .ourStory {

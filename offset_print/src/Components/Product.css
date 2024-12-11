@@ -6,6 +6,7 @@
     border-radius: 0.6rem;
     padding: 1.2rem;
     transition: transform 0.5s;
+    margin: 1.5rem;
 }
 
 .productContainer{
@@ -32,6 +33,7 @@
 #productTitle {
     font-variant: small-caps;
     margin: 0 .5rem;
+    font-size: 1.3rem;
     line-height: 1.2;
 }
 
