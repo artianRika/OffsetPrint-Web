@@ -23,7 +23,7 @@ const Navbar = () => {
                 </Link>
 
                 <ul className={"navbarList"}>
-                    <Link to={"/"}>
+                    <Link to={"/home"}>
                         <li>{t("navbar.home")}</li>
                     </Link>
                     <Link to={"/products"}>
