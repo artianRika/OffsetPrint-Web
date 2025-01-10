@@ -66,7 +66,7 @@ const Navbar = () => {
 
             <div className={`smallList ${menuOpen ? "active" : ""}`}>
                 <ul>
-                    <Link to={"/home"} onClick={toggleMenu}>
+                    <Link to={"/"} onClick={toggleMenu}>
                         <li>{t("navbar.home")}</li>
                     </Link>
                     <Link to={"/products"} onClick={toggleMenu}>
