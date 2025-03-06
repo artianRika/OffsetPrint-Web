@@ -11,7 +11,7 @@ const Footer = () =>{
                     <div className={"custom-class"}>
                         <img draggable={false} className={"logoShort"} src={logo_short}/>
                         <span>The pressure that leaves an impression!</span>
-                        <span>Copyright &copy; 2024 Offset Print</span>
+                        <span>Copyright &copy; 2007-2025 Offset Print</span>
                     </div>
             </div>
 

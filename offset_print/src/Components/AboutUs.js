@@ -1,7 +1,7 @@
 import "./AboutUs.css"
 import Blog from "./Blog";
 import Footer from "./Footer";
-import oldPhoto from "../oldFctory.jpg"
+import oldPhoto from "../oldPhotoBW.jpg"
 import safetRika from "../safetRika.jpeg"
 import {useTranslation} from "react-i18next";
 
